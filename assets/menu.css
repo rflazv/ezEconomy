@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+background-color: #2b2726;
+font-family: 'Poppins', sans-serif;
+}
+
+.navbar-custom {
+background-color: #2b2726;
+}
+
+
+
+
+.perfil {
+width: 2.5rem;
+height: 2.5rem;
+border-radius: 50%;
+}
+
+
+.profile-name {
+margin-left: 10px;
+color: #ffffff;
+transition: 0.4s;
+}
+
+.profile-name:hover {
+scale: 110%;
+}
+
+.container {
+margin-top: 2rem;
+padding-bottom: 10%;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+
+.container.d-flex {
+display: flex;
+}
+
+.container.d-flex.flex-column {
+flex-direction: column;
+}
+
+.container.d-flex.align-items-center {
+align-items: center;
+}
+
+.container.d-flex.justify-content-center {
+justify-content: center;
+}
+
+.saldo-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #ffffff;
+padding: 17rem;
+border-radius: 1.875rem;
+position: relative;
+overflow: hidden;
+}
+
+.saldoReais {
+font-size: 1.2rem;
+color: #2b2726;
+position: absolute;
+top: 10%;
+transform: translateY(-50%);
+text-align: center;
+margin: 0;
+opacity: 0.62;
+}
+
+.saldo {
+font-size: 1.3rem;
+position: absolute;
+font-weight: bold;
+top: 12%;
+left: 50%;
+transform: translateX(-50%);
+text-align: center;
+margin: 0;
+}
+
+.banco01 {
+font-size: 1.2rem;
+position: absolute;
+top: 9.375rem;
+left: 3.75rem;
+margin: 0;
+color: black;
+}
+
+.tipoCartao {
+font-size: 1rem;
+position: absolute;
+top: 10.660rem;
+left: 3.688rem;
+margin: 0;
+opacity: 0.62;
+}
+
+.saldoCartao {
+font-size: 1.3rem;
+position: absolute;
+top: 9.688rem;
+font-weight: bold;
+left: 26rem;
+margin: 0;
+}
+
+.banco02 {
+font-size: 1.2rem;
+position: absolute;
+top: 14.5rem;
+left: 3.75rem;
+margin: 0;
+}
+
+.tipoCartao2 {
+font-size: 1rem;
+position: absolute;
+top: 15.438rem;
+left: 3.688rem;
+margin: 0;
+opacity: 0.62;
+}
+
+.saldoCartao2 {
+font-size: 1.3rem;
+position: absolute;
+top: 15rem;
+font-weight: bold;
+left: 26rem;
+margin: 0;
+}
+
+.img-fluid {
+position: absolute;
+top: 9.063rem;
+left: 0.063rem;
+margin: 0;
+}
+
+.img-fluid2 {
+position: absolute;
+top: 13.625rem;
+left: 0.063rem;
+margin: 0;
+}
+
+.info-container {
+margin-top: 1rem;
+display: flex;
+}
+
+.info-box {
+background-color: #8E43ED;
+padding: 1rem;
+border-radius: 1.875rem;
+transition: 0.5s;
+background: rgba( 142, 67, 237, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+
+.info-box1 {
+padding-bottom: 0; 
+}
+
+.info-box2 {
+padding-bottom: 7%;
+}
+
+.meusCartoes {
+color: #ffffff;
+text-align: start;
+}
+
+.infoCard {
+color: #fdfdfd;
+text-decoration: none;
+}
+
+
+a:hover {
+text-decoration: none;
+}
+
+.info-box:hover {
+transform: scale(1.05);
+}
+
+.info-box2 {
+background-color: #8E43ED;
+transition: 0.5s;
+background: rgba( 240, 236, 139, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+}
+
+.navbar-toggler {
+background-color: transparent;
+border: none;
+padding: 0;
+}
+
+.navbar-toggler:focus {
+outline: none;
+}
+
+.navbar-toggler .navbar-toggler-icon.custom-icon {
+background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='0' y1='5' x2='30' y2='5' stroke='white' stroke-width='2'/%3E%3Cline x1='0' y1='14' x2='30' y2='14' stroke='white' stroke-width='2'/%3E%3Cline x1='0' y1='23' x2='30' y2='23' stroke='white' stroke-width='2'/%3E%3C/svg%3E");
+background-color: transparent;
+}
+
+@media (max-width: 48rem) {
+.saldo-container {
+  padding: 10rem;
+}
+.info-box2 {
+padding-bottom: 0;
+}
+
+.saldoCartao {
+  font-size: 1.3rem;
+  position: absolute;
+  top: 9.688rem;
+  font-weight: bold;
+  left: 12.5rem;
+  margin: 0;
+}
+
+.saldoCartao2 {
+  font-size: 1.3rem;
+  position: absolute;
+  top: 15rem;
+  font-weight: bold;
+  left: 12.5rem;
+  margin: 0;
+  }
+
+}

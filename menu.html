@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>Menu Principal</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/menu.css">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <img class="perfil" src="assets/perfil.png" alt="Foto de perfil">
+    <div class="profile-name">Olá, Rafael!</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon custom-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Perfil</a>
+        </li>
+        <!-- Outros itens de menu -->
+        <li class="nav-item">
+          <a class="nav-link text-light" href="/index.html">Sair</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container d-flex flex-column align-items-center justify-content-center">
+    <div class="saldo-container">
+      <img class="img-fluid" src="assets/nubank.png" alt="Imagem">
+      <h4 class="saldoReais">Saldo Geral</h4>
+      <p class="saldo">R$ 1.000,00</p>
+    <ul class="nav nav-tabs">
+      <div class="banco1">
+        <h4 class="banco01">Nubank</h4>
+        <p class="tipoCartao">Conta corrente</p>
+        <p class="saldoCartao">R$ 500,00</p>
+      </div>
+      <div class="banco2">
+        <img class="img-fluid2" src="assets/inter.png" alt="Imagem">
+        <h4 class="banco02">Inter</h4>
+        <p class="tipoCartao2">Conta corrente</p>
+        <p class="saldoCartao2">R$ 500,00</p>
+      </div>
+    </div>
+
+    <div class="row info-container">
+      <div class="col-md-6">
+        <a class="info-link" href="/cartoes.html">
+          <div class="info-box info-box1">
+            <h5 class="meusCartoes">Meus cartões</h5>
+            <p class="infoCard">Obtenha informações do uso dos seus cartões.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6">
+        <a class="info-link" href="/metas.html">
+          <div class="info-box info-box2">
+            <h5 class="meusCartoes">Minhas metas</h5>
+            <p class="infoCard">Obtenha informações de suas metas criadas.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
